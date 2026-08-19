@@ -90,10 +90,11 @@ started: <ISO date>
 **Loop:**
 1. Pick the next unconfirmed item
 2. Ask a targeted question — open-ended or multiple choice
-3. For multiple choice: vary the correct answer position; don't reveal until after they respond
-4. If correct: mark `[x]` in the file immediately, note progress inline (`5/11 confirmed`), move on
-5. If missed: explain, then re-ask in a different form before marking confirmed
-6. Every 3–4 exchanges: show the current checklist progress
+3. Where applicable, when you need to teach the user a particular concept, create a simulation for it where the user can step through the concept to get visual intuition and play around/experiment with it. Keep the simulation code files inside `sessions/teaching/YYYY-MM-DD-<slug>/`. Ask user for confirmation before creating the simulation.
+4. For multiple choice: vary the correct answer position; don't reveal until after they respond
+5. If correct: mark `[x]` in the file immediately, note progress inline (`5/11 confirmed`), move on
+6. If missed: explain, then re-ask in a different form before marking confirmed
+7. Every 3–4 exchanges: show the current checklist progress
 
 **Drill into WHY.** Surface the motivation behind decisions, not just what was done. Ask follow-up whys before moving to the next item.
 
